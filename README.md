@@ -92,6 +92,7 @@ To access Airflow UI is required to create a new user account, so in our case, w
 docker-compose run airflow-webserver airflow users create --role Admin --username airflow \
       --email airflow@example.com --firstname airflow --lastname airflow --password airflow
 
+
 ### 3.1 Airflow: Postgres, MinIO & Spark connections configuration
 
 1. Open the service in your browser at http://localhost:8085
