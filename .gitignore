@@ -6,6 +6,9 @@ dbinit.py
 initdb.py
 secrets.py
 
+/src/
+/src/dags
+
 # Airflow sqlite databases
 airflow.db
 unittests.db
@@ -149,6 +152,7 @@ tramp
 
 # Spark
 rat-results.txt
+/spark
 
 # Git stuff
 # Kubernetes generated templated files
@@ -226,3 +230,4 @@ licenses/LICENSES-ui.txt
 # Generated out dir
 
 /out
+src/dags/spark-postgres.py
